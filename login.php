@@ -133,7 +133,7 @@ button[type="submit"]:hover{
     function login() {
       var Username= document.getElementById('uname').value;
       var Password= document.getElementById('psw').value;
-      if(Username=="admin"&&Password=="nistm13grpa")
+      if(Username=="admin"&&Password=="Ishan!11")
       {
         alert("login  Successfull");
             }

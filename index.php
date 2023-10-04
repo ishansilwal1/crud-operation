@@ -2,7 +2,7 @@
 include('header.php');?>
 <?php
 include('conn.php');?>
-<div class="box1">
+<div class="box1"  >
 <h2 style="float: left; color: white;">ALL EMPLOYEES</h2>
 <br><br>
 <a href="add.php" role="button" class="btn btn-primary" style="float: right;"> ADD EMPLOYEE</a>
@@ -33,8 +33,8 @@ include('conn.php');?>
                         <td><?php echo $row['hired_date']; ?></td>
                         <td> <?php echo $row['department']; ?></td>
                         <td>
-								<a href="edit.php?id=<?=$row['id'] ?>" role="button" class="btn btn-warning"">Update</a> 
-								  <a href="delete.php?id=<?=$row['id'] ?>" role="button" class="btn btn-danger">DELELE</a></td>
+								<a href="edit.php?id=<?=$row['id'] ?>" role="button" class="btn btn-warning">Update</a> 
+								  <a href="delete.php?id=<?=$row['id'] ?>" role="button" class="btn btn-danger">DELETE</a></td>
                      </tr>
                     <?php
             }

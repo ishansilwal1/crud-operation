@@ -13,9 +13,9 @@
   padding: 0;
   background: linear-gradient(120deg,#2980b9, #8e44ad);
   height: 100vh;
-  overflow: hidden;">
+  overflow: scroll;">
   <img src="logo.png" style="
-    width: 120px;
+   width: 120px;
     cursor: pointer;
     padding-left: 20px;
 ">
